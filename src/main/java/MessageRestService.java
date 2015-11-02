@@ -52,34 +52,4 @@ public class MessageRestService {
 		return Response.status(200).entity(result).build();
 	}
 	
-	
-	
-	
-	
-	
-	/*@QueryParam("from") int from,
-		@QueryParam("to") int to,
-		@QueryParam("orderBy") List<String> orderBy)*/
-//	
-//	@GET
-//	@Path("/webbrowser/{param}")
-//	public Response getWebBrowser(@HeaderParam("User-Agent") String whichBrowser){
-//		String result = "Restful example : " + whichBrowser;
-//		return Response.status(200).entity(result).build();
-//	}
-//	
-	
-	/*
-	 @FormParam
-
-@PathParam
-
-@QueryParam
-
-@HeaderParam
-
-@CookieParam
-
-@MatrixParam
-	 */
 }
