@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 
 import com.rest.Invoice;
 
-@Path("/invoice")
+@Path("/invoices")
 public class InvoiceRestService {
 
 	@GET
@@ -67,4 +67,5 @@ public class InvoiceRestService {
 		lInvoices.add(new Invoice("Ipad Air",1000));
 		return lInvoices; 
 	}
+
 }
